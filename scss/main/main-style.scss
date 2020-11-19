@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    margin-top: $font-02;
+    justify-content: $justify-01;
+
+    .test1{
+        color: $color-01;
+        font-size: $font-01;
+        font-family: $fonts-01;
+        &:hover{
+            color: $color-05;
+        }
+    }
+    .test2{
+        font-size: $font-01;
+        color: $color-02;
+        width: $size-01;
+        background-color: $color-03;
+        margin-left: $font-02;
+    }
+}
+.box-wraper{
+    background-color: $color-04;
+    margin-top: $font-02;
+    
+    
+    .image-box{
+        width: $size-02;
+        height: $size-01;
+        padding-left: $size-03;
+        
+    }
+}
